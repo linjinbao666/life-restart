@@ -1,7 +1,6 @@
 {
-    "name": "xlsx_transform",
-    "type": "module",
-    "bin": "test/index.js",
+    "name": "lifw-restart",
+    "version": "1.0.0",
     "scripts": {
         "test": "node test",
         "xlsxTransform": "node utils/xlsxTransform.js data",
