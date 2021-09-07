@@ -1,52 +1,35 @@
-# lifeRestart
+# 人生重开
 
-English | [简体中文](./README-zh_CN.md)
+## Web Version
 
-## Introduction
-
-- Game Life Restart
-
-## Usage
-
-### Web Version
-
-1. Clone project code.
+1. 检出代码
 
 ```bash
-git clone git@github.com:VickScarlet/lifeRestart.git my-project
-cd my-project
+
+git clone 
+
 ```
 
-2. Installation dependence.
+2. 安装依赖
 
 ```bash
-yarn install
-```
 
-Or
-
-```bash
 npm install
+
 ```
 
-3. Start local server.
+3. 启动本地服务
 
 ```bash
-yarn dev
-```
 
-Or
-
-```bash
 npm run dev
+
 ```
 
-4. After the startup is complete, will automatically open a browser and visit [http://localhost:8081/view/index.html](http://localhost:8081/view/index.html).
-
-### Command Line Version
+4. 打包
 
 ```bash
-node repl
-```
 
-> More instructions at [documentation](https://liferestart.syaro.io/)。
+npm run build
+
+```
